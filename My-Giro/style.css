@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI Light !important;
+}
+
+body {
+  font: 14px Segoe UI;
+  background-color: #fff;
+}
+
+.shadows {
+  box-shadow: 0 3px 5px #e6e6e6;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+  display: block;
+  width: 100%;
+}
+
+.m-menu {
+  display: none;
+}
+
+.new {
+  position: relative;
+}
+
+.is-open {
+  display: block !important;
+}
+/*Шапка*/
+.shapka1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
+.button1 {
+  background-color: #ffa23f;
+  border-radius: 5px;
+  border: 2px solid #ffa23f;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 13px;
+  transition: 0.5s;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #ffa23f;
+  cursor: pointer;
+}
+
+.shapka2 {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.name_company {
+  color: #000;
+  text-decoration: none;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.menu-item a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-link {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Конец шапки*/
